@@ -7,7 +7,7 @@
             "args": [
                 "-fdiagnostics-color=always",
                 "-g",
-                "${file}", "${fileDirname}\\globalVariables\\globalVariables.cpp",
+                "${file}", "${fileDirname}\\globalVariables\\globalVariables.cpp", "${fileDirname}\\functions\\functions.cpp",
                 "-o",
                 "${fileDirname}\\${fileBasenameNoExtension}.exe",
             ],
