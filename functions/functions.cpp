@@ -13,16 +13,17 @@ int initializeAPPM(){
 
     //A
     cout << "Press Enter to start" << std::endl;
+    std::cin.ignore();
     cout << "__________________________\n\n";
     cout << "Initializing\nPlease Wait!\n";
-    cout << "__________________________\n";
+    cout << "__________________________" << std::endl;
     std::cin.ignore();
     cout << sSkip5;
 
     cout << "__________________________\n\n";
     cout << "DELTA - Advanced Personal Project Management\n";
     cout << "Making the difference\n";
-    cout << "__________________________\n";
+    cout << "__________________________" << std::endl;
     std::cin.ignore();
     cout << sSkip5;
 
