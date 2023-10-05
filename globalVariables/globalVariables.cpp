@@ -1,3 +1,7 @@
+#include <string>
 #include "../header/globalVariables.hpp"
 
-    int globalInt = 5;
+
+
+    int iGlobalInt = 5;
+    const std::string sSkip5 = "\n\n\n\n\n";

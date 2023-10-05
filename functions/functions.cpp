@@ -1,0 +1,44 @@
+#include <iostream>
+
+#include "../header/functions.hpp"
+#include "../header/globalVariables.hpp"
+
+using std::cout;
+
+//* Initialization
+int initializeAPPM(){
+    //E
+
+    //V
+
+    //A
+    cout << "Press Enter to start" << std::endl;
+    cout << "__________________________\n\n";
+    cout << "Initializing\nPlease Wait!\n";
+    cout << "__________________________\n";
+    std::cin.ignore();
+    cout << sSkip5;
+
+    cout << "__________________________\n\n";
+    cout << "DELTA - Advanced Personal Project Management\n";
+    cout << "Making the difference\n";
+    cout << "__________________________\n";
+    std::cin.ignore();
+    cout << sSkip5;
+
+
+    return 1;
+}
+
+
+//*Closing
+int closeAPPM(){
+    //E
+
+    //V
+
+    //A
+    cout << "Press Enter to exit" << std::endl;
+    std::cin.ignore();
+    return 1;
+}
